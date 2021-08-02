@@ -1,8 +1,9 @@
 USE Students
-ALTER TABLE dbo.Оценки
-ADD CONSTRAINT FK_Студенты_Оценки
-FOREIGN KEY ([Код студента])
-REFERENCES dbo.Студенты ([Код студента]);
+ALTER TABLE dbo.ГЋГ¶ГҐГ­ГЄГЁ
+ADD CONSTRAINT FK_Г‘ГІГіГ¤ГҐГ­ГІГ»_ГЋГ¶ГҐГ­ГЄГЁ
+FOREIGN KEY ([ГЉГ®Г¤ Г±ГІГіГ¤ГҐГ­ГІГ ])
+REFERENCES dbo.Г‘ГІГіГ¤ГҐГ­ГІГ» ([ГЉГ®Г¤ Г±ГІГіГ¤ГҐГ­ГІГ ]);
+
 
 
 
